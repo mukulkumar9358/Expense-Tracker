@@ -1,0 +1,105 @@
+body{
+    background-color: white;
+    margin: 0px;
+}
+header{
+    color: green;
+    width: 100%;
+    height: 100%;
+    font-family: 'nunito', sans-serif;
+    text-align: center;
+    display: flex;
+    background-color: white;
+    font-size: normal;
+    font-style: normal;
+}
+header img{
+    float: left;
+    padding-right: 10px;
+}
+.intro{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: xx-large;
+}
+#quotes h1::first-letter{
+    color: green;
+    font-size: 80px;
+    border: 0px;
+    margin-bottom: 0%;
+    
+}
+.intro h1,p{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.intro p{
+    color: green;
+    font-size: smaller;
+    padding-top: 0px;
+    
+    
+}
+#quotes p{
+    padding-top: 0px;
+    text-align: top;
+}
+button{
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    background-color: green;
+}
+button:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+    background-color: green;
+
+}
+.info{
+    font-family: 'sofia sans condensed',sans-serif;
+    font-size: x-large;
+}
+.info h1{
+    text-align: center;
+    color: green;
+    font: bold;
+}
+.info h3{
+    text-align: center;
+}
+.info p{
+    text-align: center;
+    color: green;
+    margin-left: 10px;
+}
+.info {
+    padding-bottom: 50px;
+}
+footer h5{
+    text-align: left;
+    font-size: xx-small;
+
+}
+footer h5,a{
+    margin: 0px;
+    padding: 0px;
+}
+footer a{
+    color: green;
+    font-size: xx-small;
+    text-align: left;
+    text-decoration: none;
+    padding: 7px;
+}
+a:hover{
+    color: black;
+}
